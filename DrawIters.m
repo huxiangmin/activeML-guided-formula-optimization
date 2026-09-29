@@ -81,4 +81,4 @@ colors = CustomColormap; % 使用 colormapeditor 编辑后，导出到工作空�
 c = round((Face0point(:,3)/40) * (length(colors)-1)) + 1; % 计算颜色索引
 c(c>40)=40;c(c<1)=1;
 scatter(Face0point(:,1),Face0point(:,2), 36, colors(c,:), 'filled') % 创建散点图，大小为36，填充颜色
-% 需要手工调整点的边框啥的
+% 需要手工调整点的边框等
